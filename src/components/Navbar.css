@@ -1,0 +1,31 @@
+.nav {
+  width: 100%;
+  border-top: solid 1px #1e3a8a80;
+  padding: 0 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #222;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.nav ul li.active {
+  border: solid 1px #1e3a8a;
+  border-radius: 5px;
+}
+
+.nav ul li img {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  object-fit: cover;
+  border-radius: 5px;
+}
