@@ -1,10 +1,56 @@
+.sections {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #58a700;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 80px; /* Define uma altura fixa */
+}
+
+.section-icon {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: inherit;
+}
+
+.section-icon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #c3c3c3;
+}
+
+.section-text {
+  flex: 80%;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 5px;
+}
+
+.section-text h3 {
+  text-transform: uppercase;
+}
+
+.section-icon svg {
+  font-size: 40px;
+}
+
 .learn-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
   width: 100%;
-  padding-top: 50px;
   padding-bottom: 150px;
 }
 
