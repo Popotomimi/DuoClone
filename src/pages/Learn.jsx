@@ -13,7 +13,7 @@ import "./Learn.css";
 const Learn = () => {
   return (
     <div>
-      <div className="sections">
+      <div className="sections fixed-sections">
         <div className="section-text">
           <h3>Seção 1, Unidade 1</h3>
           <p>Faça pedido em um café</p>

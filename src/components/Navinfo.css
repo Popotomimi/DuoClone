@@ -1,7 +1,11 @@
 .navinfo {
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #222;
   border-bottom: solid 1px #1e3a8a80;
-  padding: 0 5px;
 }
 
 .navinfo ul {
