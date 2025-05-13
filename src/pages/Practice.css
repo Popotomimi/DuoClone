@@ -1,4 +1,91 @@
 .practice-container {
-  margin-top: 150px;
+  margin-top: 120px;
   margin-bottom: 150px;
+}
+
+.super-card-first {
+  padding-left: 30px;
+  padding-top: 30px;
+  width: 356px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: url("/img/background-super-card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  line-height: 10px;
+}
+
+.super-card-first p {
+  font-size: 1rem;
+}
+
+.super-card-first button {
+  margin-top: 110px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #f0f0f0ce;
+  color: #6a5acd;
+}
+
+.text-h3 {
+  margin-left: 20px;
+}
+
+.song-card {
+  width: 356px;
+  margin: 0 auto;
+  border: solid 1px #f3f3f3a4;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin-bottom: 15px;
+  line-height: 15px;
+}
+
+.song-card p {
+  max-width: 230px;
+}
+
+.super-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.micro {
+  background-image: url("/img/microfone.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.phone {
+  background-image: url("/img/fone.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.go-and-back {
+  background-image: url("/img/vai-e-volta.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.carts {
+  background-image: url("/img/cartas.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.book {
+  background-image: url("/img/livro.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
