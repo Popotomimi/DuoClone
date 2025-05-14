@@ -3,7 +3,6 @@ import "./App.css";
 
 // Components
 import Navbar from "./components/Navbar";
-import Navinfo from "./components/Navinfo";
 
 // React Router Dom
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -20,7 +19,6 @@ import Missions from "./pages/Missions";
 function App() {
   return (
     <BrowserRouter>
-      <Navinfo />
       <Routes>
         <Route path="/" element={<Learn />} />
         <Route path="/characters" element={<Songs />} />

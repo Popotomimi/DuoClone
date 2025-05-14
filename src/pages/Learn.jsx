@@ -3,6 +3,9 @@ import { FaCheck } from "react-icons/fa";
 import { GiOpenBook } from "react-icons/gi";
 import { LuNotebookText } from "react-icons/lu";
 
+// Components
+import Navinfo from "../components/Navinfo";
+
 // IMG
 import Duolingo from "/img/duolingo.jpg";
 import DuolingoTwo from "/img/duolingo2.jpg";
@@ -13,6 +16,7 @@ import "./Learn.css";
 const Learn = () => {
   return (
     <div>
+      <Navinfo />
       <div className="sections fixed-sections">
         <div className="section-text">
           <h3>Seção 1, Unidade 1</h3>
