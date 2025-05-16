@@ -11,7 +11,7 @@
   height: 80px;
 }
 
-.fixed-sections {
+.fixed_sections {
   position: fixed;
   top: 90px;
   left: 50%;
@@ -21,7 +21,7 @@
   z-index: 999;
 }
 
-.section-icon {
+.section_icon {
   flex: 15%;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   height: inherit;
 }
 
-.section-icon::before {
+.section_icon::before {
   content: "";
   position: absolute;
   left: 0;
@@ -40,23 +40,23 @@
   background-color: #000;
 }
 
-.section-text {
+.section_text {
   flex: 80%;
   font-size: 1rem;
   font-weight: bold;
   line-height: 5px;
 }
 
-.section-text h3 {
+.section_text h3 {
   text-transform: uppercase;
   color: #ffffffc7;
 }
 
-.section-icon svg {
+.section_icon svg {
   font-size: 30px;
 }
 
-.learn-container {
+.learn_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -129,7 +129,7 @@
   left: 0px;
 }
 
-.side-image {
+.side_image {
   width: 150px;
   height: auto;
 }

@@ -2,7 +2,7 @@
 import { FaGear, FaAngleRight } from "react-icons/fa6";
 
 // CSS
-import "./Profile.css";
+import styles from "./Profile.module.css";
 
 // IMGS
 import User from "/img/user.jpg";
@@ -16,92 +16,93 @@ import MiniDuolingo from "/img/mini-duolingo.jpg";
 const Profile = () => {
   return (
     <div>
-      <div className="profile-container">
-        <div className="profile-nav">
+      <div className={styles.profile_container}>
+        <div className={styles.profile_nav}>
+          <p></p>
           <h3>Perfil</h3>
           <FaGear />
         </div>
-        <div className="line"></div>
-        <div className="profile-header">
+        <div className={styles.profile_header}>
           <img src={User} alt="Imagem do usuário" />
-          <h2>Your Name</h2>
-          <span>Nick Name</span>
-          <div className="card-flag">
+          <h2>Roberto de Oliveira</h2>
+          <span>Popotomimi</span>
+          <div className={styles.card_flag}>
             <div>
-              <p>Por aqui desde "Data"</p>
-              <p>25 friends</p>
+              <p>Por aqui desde março de 2024</p>
+              <span>25 amigos</span>
             </div>
             <div>
               <img src={Bandeira} alt="Bandeira" />
             </div>
           </div>
         </div>
-        <div className="line"></div>
-        <div className="update-friends">
+        <div className={styles.update_friends}>
           <img src={Festa} alt="Festa" />
+          <h3>Atualização de amigos</h3>
+          <FaAngleRight />
         </div>
         <h3>Estatísticas</h3>
-        <div className="card-info">
-          <div className="ofenciva card">
+        <div className={styles.card_info}>
+          <div className={`${styles.ofenciva} ${styles.card}`}>
             <h4>365</h4>
             <p>Dias seguidos</p>
           </div>
-          <div className="xp card">
+          <div className={`${styles.xp} ${styles.card}`}>
             <h4>99999</h4>
             <p>Total de XP</p>
           </div>
-          <div className="div card">
+          <div className={`${styles.div} ${styles.card}`}>
             <h4>Diamante</h4>
             <p>Divisão</p>
           </div>
-          <div className="level card">
+          <div className={`${styles.level} ${styles.card}`}>
             <h4>12</h4>
             <p>Pódios</p>
           </div>
         </div>
-        <div className="friends-header">
+        <div className={styles.friends_header}>
           <h3>Amigos</h3>
-          <h3 className="text-blue">Adicionar Amigos</h3>
+          <h3 className={styles.text_blue}>Adicionar Amigos</h3>
         </div>
-        <div className="friends-list">
-          <div className="text-header">
+        <div className={styles.friends_list}>
+          <div className={styles.text_header}>
             <h3>Segue</h3>
             <h3>Seguidores</h3>
           </div>
-          <div className="friends-card">
+          <div className={styles.friends_card}>
             <div>
               <img src={MiniDuolingo} alt="Mini Duolingo" />
             </div>
-            <div>
+            <div className={styles.friends_card_info}>
               <h4>Duolingo</h4>
               <span>999 XP</span>
             </div>
           </div>
-          <div className="friends-card">
+          <div className={styles.friends_card}>
             <div>
               <img src={MiniDuolingo} alt="Mini Duolingo" />
             </div>
-            <div>
-              <h4>Duolingo</h4>
-              <span>999 XP</span>
+            <div className={styles.friends_card_info}>
+              <h4>Duolinga</h4>
+              <span>9999 XP</span>
             </div>
           </div>
-          <div className="friends-card">
+          <div className={styles.friends_card}>
             <div>
               <img src={MiniDuolingo} alt="Mini Duolingo" />
             </div>
-            <div>
-              <h4>Duolingo</h4>
-              <span>999 XP</span>
+            <div className={styles.friends_card_info}>
+              <h4>Duolinge</h4>
+              <span>99910 XP</span>
             </div>
           </div>
-          <div className="fiends-footer">
+          <div className={styles.friends_footer}>
             <h4>Ver mais 50</h4>
             <FaAngleRight />
           </div>
         </div>
-        <div className="invite-friends">
-          <div className="header-invite">
+        <div className={styles.invite_friends}>
+          <div className={styles.header_invite}>
             <div>
               <img src={MiniDuolingo} alt="Mini Duolingo" />
             </div>
@@ -116,8 +117,8 @@ const Profile = () => {
           <button>Convidar Amigos</button>
         </div>
         <h3>Conquistas</h3>
-        <div className="conquistas">
-          <div className="conquista-card">
+        <div className={styles.conquistas}>
+          <div className={styles.conquista_card}>
             <div>
               <img src={Conquista1} alt="Conquista 1" />
             </div>
@@ -126,16 +127,16 @@ const Profile = () => {
               <p>Você alcançou uma ofensiva de 365 dias.</p>
             </div>
           </div>
-          <div className="conquista-card">
+          <div className={styles.conquista_card}>
             <div>
               <img src={Conquista2} alt="Conquista 2" />
             </div>
             <div>
               <h3>Sabe tudo</h3>
-              <p>Você ganhou 90000 XP</p>
+              <p>Você ganhou 90000 XP em 365 dias no curso.</p>
             </div>
           </div>
-          <div className="conquista-card">
+          <div className={styles.conquista_card}>
             <div>
               <img src={Conquista3} alt="Conquista 3" />
             </div>
@@ -144,7 +145,7 @@ const Profile = () => {
               <p>Você aprendeu 1500 palavras nova no curso.</p>
             </div>
           </div>
-          <div className="conquistas-footer">
+          <div className={styles.conquistas_footer}>
             <h4>Ver todas</h4>
             <FaAngleRight />
           </div>

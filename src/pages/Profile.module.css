@@ -1,0 +1,280 @@
+.profile_container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 120px;
+}
+
+.profile_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ffffff54;
+  margin-bottom: 15px;
+}
+
+.profile_nav h3 {
+  font-size: 1.4rem;
+  color: #ffffff54;
+  margin: 0;
+}
+
+.profile_nav svg {
+  font-size: 1.3rem;
+}
+
+.profile_header {
+  border-bottom: 1px solid #ffffff54;
+  padding-bottom: 15px;
+}
+
+.profile_header img {
+  width: 100%;
+}
+
+.profile_header h2,
+p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.profile_header span {
+  color: #ffffff54;
+}
+
+.card_flag {
+  display: flex;
+  justify-content: start;
+  align-self: start;
+}
+
+.card_flag img {
+  width: 35px;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.card_flag p {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.card_flag span {
+  color: #49c0f8;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.update_friends {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: solid 1px #ffffff54;
+  border-radius: 10px;
+}
+
+.update_friends h3 {
+  font-size: 1.2rem;
+}
+
+.card_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 68px;
+  width: 185px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  font-weight: bold;
+}
+
+.card h4 {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.ofenciva {
+  background-image: url("/img/ofencivas.jpg");
+  background-repeat: no-repeat;
+}
+
+.xp {
+  background-image: url("/img/experiencia.jpg");
+  background-repeat: no-repeat;
+}
+
+.div {
+  background-image: url("/img/divisao.jpg");
+  background-repeat: no-repeat;
+}
+
+.level {
+  background-image: url("/img/podio.jpg");
+  background-repeat: no-repeat;
+}
+
+.friends_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends_header h3 {
+  margin-bottom: 8px;
+}
+
+.text_blue {
+  color: #49c0f8;
+  text-transform: uppercase;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0 !important;
+}
+
+.friends_list {
+  border: solid 1px #ffffff54;
+  border-radius: 15px;
+}
+
+.text_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text_header h3 {
+  width: 100%;
+  border-bottom: solid 1px #ffffff54;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+
+.friends_card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.friends_card img {
+  width: 50px;
+  margin-left: 15px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  padding: 7px;
+}
+
+.friends_card_info {
+  padding: 10px;
+}
+
+.friends_card_info h4 {
+  margin: 0;
+}
+
+.friends_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  border-top: solid 1px #ffffff54;
+}
+
+.friends_footer h4 {
+  margin-top: 5px;
+}
+
+.friends_card_info span {
+  color: #ffffff54;
+}
+
+.invite_friends {
+  padding: 10px;
+  margin-top: 15px;
+  border: solid 1px #ffffff54;
+  border-radius: 10px;
+}
+
+.header_invite {
+  display: flex;
+}
+
+.header_invite img {
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 70px;
+}
+
+.invite_friends button {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #49c0f8;
+  box-shadow: 0px 4px 4px #49c1f89a;
+}
+
+.conquistas {
+  border: solid 1px #ffffff54;
+  border-radius: 15px;
+}
+
+.conquistas img {
+  margin: 10px;
+}
+
+.conquista_card {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border-bottom: solid 1px #ffffff54;
+}
+
+.conquista_card h3,
+.conquista_card p {
+  margin: 0;
+  font-size: 1.1rem;
+  padding-left: 15px;
+}
+
+.conquistas_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 15px;
+  border-top: solid 1px #ffffff54;
+  font-size: 1.5rem;
+}
+
+.conquistas_footer h4 {
+  margin: 0;
+}

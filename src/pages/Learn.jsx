@@ -11,24 +11,28 @@ import Duolingo from "/img/duolingo.jpg";
 import DuolingoTwo from "/img/duolingo2.jpg";
 
 // CSS
-import "./Learn.css";
+import styles from "./Learn.module.css";
 
 const Learn = () => {
   return (
     <div>
       <Navinfo />
-      <div className="sections fixed-sections">
-        <div className="section-text">
+      <div className={`${styles.sections} ${styles.fixed_sections}`}>
+        <div className={styles.section_text}>
           <h3>Seção 1, Unidade 1</h3>
           <p>Faça pedido em um café</p>
         </div>
-        <div className="section-icon">
+        <div className={styles.section_icon}>
           <LuNotebookText />
         </div>
       </div>
-      <div className="learn-container">
-        <img src={DuolingoTwo} className="side-image left" alt="Duolingo" />
-        <div className="buttons">
+      <div className={styles.learn_container}>
+        <img
+          src={DuolingoTwo}
+          className={`${styles.side_image} ${styles.left}`}
+          alt="Duolingo"
+        />
+        <div className={styles.buttons}>
           <button>
             <GiOpenBook />
           </button>
@@ -57,7 +61,11 @@ const Learn = () => {
             <GiOpenBook />
           </button>
         </div>
-        <img src={Duolingo} className="side-image right" alt="Duolingo" />
+        <img
+          src={Duolingo}
+          className={`${styles.side_image} ${styles.right}`}
+          alt="Duolingo"
+        />
       </div>
     </div>
   );
