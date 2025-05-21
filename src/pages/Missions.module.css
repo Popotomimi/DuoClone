@@ -1,0 +1,164 @@
+.missions_container {
+  margin-bottom: 130px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.missions_header {
+  background-color: #00a47d;
+  padding-bottom: 15px;
+}
+
+.missions_top {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #fff;
+}
+
+.missions_top h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.missions_title {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.missions_title h2 {
+  font-size: 1.2rem;
+  max-width: 220px;
+  margin-bottom: 5px;
+}
+
+.missions_title span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #ffffffa4;
+}
+
+.month {
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  max-width: 35px;
+  color: #00a47d;
+  font-size: 0.8rem;
+}
+
+.missions_bottom {
+  max-width: 90%;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.missions_bottom h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  padding-left: 8px;
+}
+
+.missions_day {
+  display: flex;
+  justify-content: space-between;
+}
+
+.missions_day h3,
+.missions_day h2 {
+  font-size: 1.2rem;
+}
+
+.missions_day h2 {
+  color: #f6e92d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.card_missions {
+  border: solid 1px #ffffffa4;
+  border-radius: 15px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-bottom: solid 1px #ffffffa4;
+}
+
+.card_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.icon img {
+  width: 60px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.missions_footer_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.missions_footer_top h3,
+.missions_footer_top h2 {
+  font-size: 1.2rem;
+}
+
+.missions_footer_top h2 {
+  color: #f6982d;
+  text-transform: uppercase;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.missions_footer {
+  border: solid 1px #ffffffa4;
+  border-radius: 15px;
+}
+
+.footer_top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-bottom: solid 1px #ffffffa4;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_card1 {
+  border-right: solid 1px #ffffffa4;
+  height: 100%;
+}
+
+.footer_card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.footer_card1 {
+  border-right: solid 1px #ffffffa4;
+}
