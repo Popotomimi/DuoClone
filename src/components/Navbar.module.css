@@ -1,10 +1,12 @@
 .nav {
   width: 100%;
+  max-width: 414px;
   border-top: solid 1px #1e3a8a80;
   padding: 0 5px;
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1000;
   background-color: #222;
 }
