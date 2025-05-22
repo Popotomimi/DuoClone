@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Como você pede um café em inglês?",
+    "respostas": ["Can I have a coffee, please?", "I want coffee!", "Coffee now!"],
+    "correta": "Can I have a coffee, please?"
+  },
+  {
+    "id": 2,
+    "pergunta": "Como perguntar se há opções de chá?",
+    "respostas": ["Do you have tea?", "Tea now!", "Give me tea!"],
+    "correta": "Do you have tea?"
+  },
+  {
+    "id": 3,
+    "pergunta": "Como perguntar pelo tamanho da bebida?",
+    "respostas": ["What sizes do you have?", "Big coffee only!", "Give me the largest!"],
+    "correta": "What sizes do you have?"
+  },
+  {
+    "id": 4,
+    "pergunta": "Como pedir um café com leite?",
+    "respostas": ["Can I have a latte?", "Milk coffee, please!", "Coffee with milk!"],
+    "correta": "Can I have a latte?"
+  },
+  {
+    "id": 5,
+    "pergunta": "Como pedir chá gelado?",
+    "respostas": ["Can I have an iced tea?", "Cold tea, please!", "Freeze my tea!"],
+    "correta": "Can I have an iced tea?"
+  },
+  {
+    "id": 6,
+    "pergunta": "Como perguntar quais tipos de café estão disponíveis?",
+    "respostas": ["What types of coffee do you have?", "Coffee menu now!", "Tell me the best coffee!"],
+    "correta": "What types of coffee do you have?"
+  },
+  {
+    "id": 7,
+    "pergunta": "Como pedir um café expresso?",
+    "respostas": ["Can I have an espresso?", "Strong coffee, please!", "Express coffee!"],
+    "correta": "Can I have an espresso?"
+  },
+  {
+    "id": 8,
+    "pergunta": "Como perguntar se o café tem açúcar?",
+    "respostas": ["Does the coffee have sugar?", "Sugary coffee, please!", "Add sugar!"],
+    "correta": "Does the coffee have sugar?"
+  },
+  {
+    "id": 9,
+    "pergunta": "Como perguntar se há leite vegetal para o café?",
+    "respostas": ["Do you have plant-based milk?", "Give me soy milk!", "Milk options now!"],
+    "correta": "Do you have plant-based milk?"
+  }
+]

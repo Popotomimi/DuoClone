@@ -2,6 +2,7 @@
 import "./App.css";
 
 // Components
+import Quiz from "./components/Quiz";
 import Navbar from "./components/Navbar";
 
 // React Router Dom
@@ -27,6 +28,7 @@ function App() {
         <Route path="/missions" element={<Missions />} />
         <Route path="/store" element={<Store />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/quiz/:id" element={<Quiz />} />
       </Routes>
       <Navbar />
     </BrowserRouter>

@@ -13,7 +13,12 @@ import DuolingoTwo from "/img/duolingo2.jpg";
 // CSS
 import styles from "./Learn.module.css";
 
+// React Router Dom
+import { useNavigate } from "react-router-dom";
+
 const Learn = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <Navinfo />
@@ -33,31 +38,31 @@ const Learn = () => {
           alt="Duolingo"
         />
         <div className={styles.buttons}>
-          <button>
+          <button onClick={() => navigate("/quiz/1")}>
             <GiOpenBook />
           </button>
-          <button>
+          <button onClick={() => navigate("/quiz/2")}>
             <FaCheck />
           </button>
-          <button>
+          <button onClick={() => navigate("/quiz/3")}>
             <GiOpenBook />
           </button>
-          <button>
+          <button onClick={() => navigate("/quiz/4")}>
             <FaCheck />
           </button>
-          <button>
+          <button onClick={() => navigate("/quiz/5")}>
             <GiOpenBook />
           </button>
-          <button>
+          <button onClick={() => navigate("/quiz/6")}>
             <FaCheck />
           </button>
-          <button>
+          <button onClick={() => navigate("/quiz/7")}>
             <GiOpenBook />
           </button>
-          <button>
+          <button onClick={() => navigate("/quiz/8")}>
             <FaCheck />
           </button>
-          <button>
+          <button onClick={() => navigate("/quiz/9")}>
             <GiOpenBook />
           </button>
         </div>
