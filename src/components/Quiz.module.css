@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   width: 100%;
 }
 
@@ -11,20 +10,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   padding: 10px;
+  gap: 20px;
+}
+
+.quiz_header svg {
+  width: 50px;
+  height: 50px;
+}
+
+.quiz_header img {
+  width: 40px;
+  height: 40px;
 }
 
 .line {
-  width: 100%;
-  height: 5px;
-  background-color: green;
+  width: 300px;
+  height: 12px;
+  background-color: #58a700;
   margin: 20px 0;
+  border-radius: 10px;
 }
 
 .questions {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 15px;
   width: 80%;
@@ -37,8 +47,6 @@
 
 .question {
   text-align: center;
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .respostas {
